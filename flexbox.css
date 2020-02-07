@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+}
+.wrapper{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;  
+    align-items:center;
+}
+.item:nth-child(odd){
+    background-color: coral;
+}
+
+.item{
+    width: 80px;
+    border: 1px solid grey;
+}
+.wrapper2{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;  
+    justify-content: center;
+    align-items:center;
+}
+.wrapper3{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;  
+    justify-content: center;
+    align-items:center;
+}
